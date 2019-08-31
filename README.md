@@ -1,6 +1,10 @@
 # Udacity Data Scientist Nanodegree Capstone Project
 This repository has all the code and report for my Udacity Data Scientist Nanodegree Capstone project.
 # Starbucks-Capstone-Challenge
+
+## Blog post on Medium  
+https://medium.com/@reemalsaedi6/starbucks-capstone-challenge-b5a91fcc997d
+
 ## Install
 This project requires Python 3.x and the following Python libraries installed:
 
