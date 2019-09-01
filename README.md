@@ -26,7 +26,6 @@ Using the data provided, I answer the above first question using charts for (Dem
 ## Data 
 ### profile.json
 Rewards program users (17000 users x 5 fields)
-
 - gender: (categorical) M, F, O, or null
 - age: (numeric) missing value encoded as 118
 - id: (string/hash)
@@ -35,7 +34,6 @@ Rewards program users (17000 users x 5 fields)
 
 ### portfolio.json
 Offers sent during 30-day test period (10 offers x 6 fields)
-
 - reward: (numeric) money awarded for the amount spent
 - channels: (list) web, email, mobile, social
 - difficulty: (numeric) money required to be spent to receive reward
@@ -44,7 +42,6 @@ Offers sent during 30-day test period (10 offers x 6 fields)
 - id: (string/hash)
 ### transcript.json
 Event log (306648 events x 4 fields)
-
 - person: (string/hash)
 - event: (string) offer received, offer viewed, transaction, offer completed
 - value: (dictionary) different values depending on event type
@@ -56,4 +53,5 @@ Event log (306648 events x 4 fields)
 ### Results
 My analysis suggests that the resulting random forest model has an training data accuracy of 0.944 and an F1-score of 0.939. The test data set accuracy of 0.929 and F1-score of 0.931 suggests that the random forest model I constructed did not overfit the training data.
 
-
+### Licensing, Authors, Acknowledgements, etc.
+Data for coding project was provided by Udacity.
